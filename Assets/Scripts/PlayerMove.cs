@@ -15,6 +15,7 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ControladorPontuacao.Pontuacao = 0;
     }
 
     void Update() 
@@ -24,9 +25,10 @@ public class PlayerMove : MonoBehaviour
         {
             rb.AddForce(transform.up * forcaPulo,ForceMode2D.Impulse);
             isJumping = true;
+        //SE PULAR GANHA PONTO
+        ControladorPontuacao.Pontuacao++;
         }
-        //POINT MOVE CODE
-
+        
     }
 
     //Codigo que faz a "HitBox" ter ou tomar uma ação quando colidida com outra
