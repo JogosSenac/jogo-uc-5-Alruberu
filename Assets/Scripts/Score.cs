@@ -1,11 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ControladorPontuacao
+public class ControladorPontuacao: MonoBehaviour
 {
-    private static int pontuacao;
-
+    public static int pontuacao;
     public static int Pontuacao
     {
         //Pegar pontuação
@@ -22,4 +22,9 @@ set{ pontuacao = value;
     }// Set
 
     }//StaInt
+
+    internal float GetPontuacao()
+    {
+        throw new NotImplementedException();
+    }
 }

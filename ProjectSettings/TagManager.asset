@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - "Ch\xE3o"
   - Void
+  - ponto
+  - "Ch\xE3o"
+  - chao
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - ground
   - 
   - 
   - 

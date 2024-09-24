@@ -508,7 +508,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cume\xE7ar\n"
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2618,7 +2618,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skate Bot
+  m_text: JUMPER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbec7a630134af44dbe1b246dc97f135, type: 2}
   m_sharedMaterial: {fileID: -3899839660919670733, guid: cbec7a630134af44dbe1b246dc97f135, type: 2}
